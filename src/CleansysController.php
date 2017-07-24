@@ -34,4 +34,12 @@ class CleansysController extends Controller
     public function clearCompile() {
         Artisan::call('clear-compiled');
     }
+
+    public function clearAll() {
+        Artisan::call('clear-compiled');
+        Artisan::call('view:clear');
+        Artisan::call('cache:clear');
+        Artisan::call('config:clear');
+        Artisan::call('route:clear');
+    }
 }
