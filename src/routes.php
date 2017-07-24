@@ -11,3 +11,5 @@ Route::get('disableCachePage', 'DungBui\CleanSys\CleansysController@disableCache
 Route::get('clearCachePage', 'DungBui\CleanSys\CleansysController@clearCachePage');
 
 Route::get('clearCacheView', 'DungBui\CleanSys\CleansysController@clearCacheView');
+
+Route::get('clearCompile', 'DungBui\CleanSys\CleansysController@clearCompile');

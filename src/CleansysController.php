@@ -30,4 +30,8 @@ class CleansysController extends Controller
     public function clearCacheView() {
         Artisan::call('view:clear');
     }
+
+    public function clearCompile() {
+        Artisan::call('clear-compiled');
+    }
 }
