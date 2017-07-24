@@ -11,19 +11,18 @@ Package used to delete cache in laravel
 Run "composer require dungbui/cleansys" to install this package
 
 ## Deployment
-
-Enable maintain mode laravel
-http://localhost:8000/enableMaintainMode
-http://localhost:8000/disableMaintainMode
-http://localhost:8000/clearCacheView
-http://localhost:8000/clearCompile
-http://localhost:8000/clearAll
+using route name
+* [enableMaintainMode](http://localhost:8000/enableMaintainMode)
+* [disableMaintainMode](http://localhost:8000/disableMaintainMode)
+* [clearCacheView](http://localhost:8000/clearCacheView)
+* [clearCompile](http://localhost:8000/clearCompile)
+* [clearAll](http://localhost:8000/clearAll)
 
 with clearAll, this nethod will clear: clear-compiled, view, cache, config and route
 
 ## Authors
 
-*Dung Bui* - [website](https://dungbui.top)
+* **Dung Bui** - [website](https://dungbui.top)
 
 ## License
 
