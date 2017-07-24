@@ -1,0 +1,13 @@
+{
+    "name": "dungbui/cleansys",
+    "description": "Package clean app",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dung Bui",
+            "email": "qdb611@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
